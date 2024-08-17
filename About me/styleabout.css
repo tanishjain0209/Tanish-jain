@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(purple,black,black);
+}
+
+#start {
+color: white;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    max-width: 300px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about-text {
+    max-width: 800px;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: white;
+}
+
+.open-to-work {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.open-to-work h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.open-to-work p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: white;
+}
+
+.stylish-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: purple;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.stylish-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
